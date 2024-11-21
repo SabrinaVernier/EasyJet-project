@@ -1,0 +1,40 @@
+/* section 4 (three-pictures) */
+
+.three-pictures {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+.three-pictures img {
+  height: 220px;
+  width: 285px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #bbb;
+}
+
+.relative-div {
+  position: relative;
+}
+
+.absolute-div {
+  /* border: blue 1px solid; */
+  height: 100%;
+  width: 285px;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.three-pictures button {
+  background-color: unset;
+  color: white;
+  border: none;
+  font-size: 20px;
+}

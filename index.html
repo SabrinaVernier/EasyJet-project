@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <link rel="shortcut icon" href="./assets/imgs/mon image.png" /> 
+    <link rel="stylesheet" href="./assets/css/reset.css" /> 
+    <script src="https://kit.fontawesome.com/72f5baab3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bookingMenuStyle.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    
+    <title>EasyJet</title>
+  </head>
+  <body>
+    <header>
+      <nav>       
+        <div> 
+          <i class="fa-solid fa-bars icon-burger"></i>        
+          <img src="./assets/imgs/ej-title.png" alt="titre principal" />
+          <a href="">Infos de vol</a>
+          <a href="">Voitures/Autres services</a>
+          <a href="">Buisiness</a>
+          <a href="">Hôtels</a>
+          <a href="">Mes réservations</a>
+        </div>
+        <div>
+          <button class="desappear-phone">S'enregistrer</button>
+          <div class="connexion">
+            <i class="fa-regular fa-circle-user icon-user"></i>
+            <a href="">Se connecter</a>
+          </div>
+          <a class="desappear-phone" href="">Aide</a>
+          <a class="desappear-phone" href="">fr-FR</a>
+          <img class="desappear-phone" src="./assets/imgs/drapeau.png" alt="drapeau france" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="first">
+        <div class="div-first-img blue-relative">
+          <img src="./assets/imgs/beach.jpg" alt="plage header"/>
+          <div class="div-above-first-img red-absolute">
+            <div class="container div-booking-menu green">
+              <menu class="booking-menu">
+                <div>
+                  <label><input type="checkbox" id="checkbox"/>Aller simple</label>
+                </div>
+          
+                <section class="destination">
+                  <div>                   
+                    <label for="input-destination">De: </label>   
+                    <input type="text" id="input-destination"/>
+                    <i class="fa-solid fa-list"></i>
+                  </div>
+                  <div class="line-separator"></div>
+                  <div>             
+                    <label for="input-destination2">À:..</label>  
+                    <input type="text" id="input-destination2"/>
+                    <i class="fa-solid fa-list"></i>              
+                  </div>
+                </section>
+          
+                <section class="date">
+                  <div>
+                    <label><i class="fa-regular fa-calendar-days"></i>Aller <input type="text" id="aller"/></label>
+                  </div>
+                  <div class="line-separator"></div>
+                  <div>
+                    <label><i class="fa-regular fa-calendar-days"></i>Retour <input type="text" id="retour"/></label>
+                  </div>
+                </section>
+          
+                <section class="person">
+                  <div>
+                    <p>Adultes (16 +)</p>
+                    <div>
+                      <button style="color: #f60"><i class="fa-solid fa-minus"></i></button><span>1</span
+                      ><button style="color: #f60" class="add"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Enfants (2-15)</p>
+                    <div>
+                      <button><i class="fa-solid fa-minus"></i></button><span>0</span
+                      ><button style="color: #f60" class="add"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Bébés (<2)</p>
+                    <div>
+                      <button><i class="fa-solid fa-minus"></i></button><span>0</span
+                      ><button style="color: #f60" class="add"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                </section>
+          
+                <section>
+                  <button>Afficher les vols ></button>
+                </section>
+          
+                <section>
+                  <div>À propos de l'assistance spéciale ></div>
+                  <div>Nous compensons nos émissions carbones ></div>
+                </section>
+              </menu>
+              <div class="text-near-menu hidden-670">
+                <p>NAGER. DORMIR. MANGER. RECOMMENCER.</p>
+                <p>Cet été, détendez-vous à la plage : Baléares, Sardaigne, Sicile...Vous avez le choix !</p>
+                <p>à partir de <br><span>29,75€</span></p>
+                <button>Réservez maintenant ></button>
+              </div>
+            </div>
+          </div>
+          <div class="div2-above-first-img red-absolute">
+            <div class="container div-under-menu">
+              <div>
+                <h4>Lisbonne</h4>
+                <p>à partir de Paris Charles de Gaulle 29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <h4>Porto</h4>
+                <p>à partir de Paris Charles de Gaulle 29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <h4>Faro</h4>
+                <p>à partir de Paris Charles de Gaulle 34,75€ mars 2023</p>
+                <button>Réservez ></button>
+              </div>
+              <div>
+                <h4>Lisbonne</h4>
+                <p>à partir de Paris Charles de Gaulle 29,75€ nov. 2023</p>
+                <button>Réservez ></button>
+              </div>
+            </div>
+            <p class="container">Le prix est valable pour un aller simple, taxes incluses, à disponibilité limitée.</p>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="container worldwide section-default">
+        <img src="./assets/imgs/worldwide-img.jpg" alt="vol dessus du monde" />
+        <div>
+          <h2>WORLDWIDE</h2>
+          <p>Voyagez encore plus loin à l'étranger.
+          </br>Découvrez l'Europe et au delà grâce à notre offre de produits de
+            correspondance
+          </p>
+          <button>En savoir plus</button>
+        </div>
+      </section>
+      
+      <section class="container full-services">
+        <div class="caroussel1">
+          <div class="divcaroussel1">
+            <img src="./assets/imgs/photoCarrouselEasyJet/carousel1.jpg" alt="img caroussel1">
+            <div>
+              <div>
+                <h3>LOCATION DE VOITURE</h3>
+                <p>Vous avez besoin de réserver une voiture ? Comparez les prix de location de voiture pour obtenir la meilleure offre.</p>
+              </div>
+              <button>En savoir plus ></button>
+            </div>
+          </div>
+
+          <div class="divcaroussel1">
+            <img src="./assets/imgs/photoCarrouselEasyJet/carousel2.jpg" alt="img caroussel2">
+            <div>
+              <div>
+                <h3>STATIONNEMENT. STATION PRIVÊE. NAVETTES</h3>
+                <p>Ce sont les petits suppléments qui rendent les vacances vraiment spéciales, alors ajoutez la touche finale à votre voyage.</p>
+              </div>
+              <button>Réservez dès maintenant ></button>
+            </div>
+          </div>
+
+          <div class="divcaroussel1">
+            <img src="./assets/imgs/photoCarrouselEasyJet/carousel3.jpg" alt="img caroussel3">
+            <div>
+              <div>
+                <h3>VOUS PRENEZ SOUVENT L'AVION ? ECONOMISEZ DU TEMPS ET DE L'ARGENT</h3>
+                <p>Voyagez comme un pro avec un abonnement annuel easyJet Plus, à seulement 215 £.</p>
+              </div>
+              <button>Devenez membre dès maintenant ></button>
+          </div>
+          </div>
+
+          <div class="divcaroussel1">
+            <img src="./assets/imgs/photoCarrouselEasyJet/carousel4.jpg" alt="img caroussel4">
+            <div>
+              <div>
+                <h3>VISITES ET ACTIVITÊS</h3>
+                <p>Êvitez les pièges à touristes et vivez des expériences authentiques et inoubliables</p>
+              </div>
+              <button>Consultez le site ></button>
+          </div>
+          </div>
+
+          <div class="divcaroussel1">
+            <img src="./assets/imgs/photoCarrouselEasyJet/carousel5.jpg" alt="img caroussel5">
+            <div>
+               <div>
+                <h3>TROUVEZ L'HÊBERGEMENT IDÊAL</h3>
+               <p>Vous cherchez un superbe hôtel ou appartement ? Avec Booking.com, vous trouverez à coup sûr l'hébergement idéal pour votre prochain voyage.</p>
+              </div>
+               <button>Trouvez l'hébergement idéal ></button>
+          </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="container brittany section-default">
+        <img src="./assets/imgs/bretagne.jpg" alt="bretagne" />
+        <div>
+          <h2>Cet été, faites sauter le crêpier !</h2>
+          <p>
+            Cap sur l'ouest et bienvenue à Brest ! La perle maritime de la
+            Bretagne vous attend, là où l'aventure s'élève comme les marées et
+            où la bonne humeur fait des vagues !
+          </p>
+          <p>
+            Les magnifiques plages de sable fin et les criques isolées invitent
+            à la détente et à la contemplation. Les amateurs de plein air seront
+            ravis de pouvoir profiter des sentiers côtiers pittoresques qui
+            offrent des vues spectaculaires sur l'Océan Atlantique.
+          </p>
+          <button>Réservez maintenant</button>
+        </div>
+      </section>
+
+      <section class="container three-pictures">
+        <div class="relative-div">
+          <img src="./assets/imgs/triple-first.jpg" alt="image monde">      
+          <div class="absolute-div">
+            <p>Développement durable</p>
+            <button>En savoir plus ></button>
+          </div>
+        </div>
+        <div class="relative-div">
+          <img src="./assets/imgs/triple-second.jpg" alt="dame dans avion">
+          <div class="absolute-div">
+            <p>Apprivoiser votre peur de voler</p>
+            <button>En savoir plus ></button>
+          </div>
+        </div>
+        <div class="relative-div">
+          <img src="./assets/imgs/triple-third.jpg" alt="vue nuage" id="heaven">
+          <div class="absolute-div">
+            <p>Inscrivez-vous à notre newsletter</p>
+            <button>profitez-en</button>
+          </div>
+        </div>
+      </section>
+      
+      <section class="container full-blackdiv-caroussel">
+        <h2>Comment pouvons-nous vous aider ?</h2>
+        <div class="caroussel2">
+          <div class="blackdiv">
+            <p>Questions fréquentes</p>
+            <i class="fa-regular fa-circle-question icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Bagages</p>
+            <i class="fa-solid fa-suitcase icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Retards et annulations</p>
+            <i class="fa-regular fa-clock icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>S'enregistrer en ligne</p>
+            <i class="fa-solid fa-mobile-screen-button icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Effectuer un changement</p>
+            <i class="fa-solid fa-pen icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Protection contre les restrictions de voyage</p>
+            <i class="fa-solid fa-user-shield icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Etat du trafic</p>
+            <i class="fa-solid fa-info icon"></i>
+          </div>
+          <div class="blackdiv">
+            <p>Prendre l'avion avec des enfants</p>
+            <i class="fa-solid fa-children icon"></i>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-div">
+        <div>
+          <h4>Infos de vol</h4>
+          <ul>
+            <li>Flight Tracker</li>
+            <li>Gérer les réservations</li>
+            <li>Durabilité</li>
+            <li>Guides de voyage</li>
+            <li>Carte de destinations</li>
+            <li>Vaincre votre peur de voler</li>
+            <li>Durée des vols</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Service clientèle</h4>
+          <ul>
+            <li>Accessibilité</li>
+            <li>La Charte du passager</li>
+            <li>Aide</li>
+            <li>Etat du trafic</li>
+            <li>Plan du site</li>
+            <li>Aide spéciale</li>
+          </ul>
+        </div>
+        <div>
+          <h4>A propos d'easyJet</h4>
+          <ul>
+          <li>Carrières</li>
+          <li>Informations sur la compagnie</li>
+          <li>easyJet Spirit</li>
+          <li>Unicef</li>
+        </ul>
+        </div>
+        <div>
+          <h4>Termes et conditions</h4>
+          <ul>
+          <li>Politique d'utlisation acceptable</li>
+          <li>Charte de distribution</li>
+          <li>Suppléments et charges</li>
+          <li>Avis sur les cookies du groupe</li>
+          <li>Politique de confidentialité</li>
+          <li>Conditions générales</li>
+          <li>Informations Juridiques</li>
+        </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

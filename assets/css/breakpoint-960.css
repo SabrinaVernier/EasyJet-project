@@ -1,0 +1,64 @@
+/*   max-width: 960px    */
+
+.container {
+  width: 630px;
+  margin: 0 auto;
+}
+
+/*    section 1: first */
+.div-booking-menu {
+  width: 100vw;
+  padding: 20px;
+}
+.div2-above-first-img {
+  /* width: 100vw; */
+  height: fit-content;
+}
+.div-under-menu,
+.div2-above-first-img > p {
+  width: calc(100vw - 10px);
+  padding: 5px;
+}
+
+/*    section-default (2 et 3) */
+
+.section-default {
+  flex-direction: column;
+}
+
+/*    section 2bis: full-services */
+
+.full-services {
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+/*    section 4: three-pictures */
+
+.three-pictures {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+.three-pictures div:last-child {
+  width: 100%;
+}
+.three-pictures div:last-child div {
+  width: 50%;
+}
+#heaven {
+  width: 100%;
+  object-position: top;
+}
+
+/*  section 5: full-balckdiv-caroussel */
+
+.full-blackdiv-caroussel {
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+/*    footer    */
+.footer-div {
+  width: calc(100% - 40px);
+}

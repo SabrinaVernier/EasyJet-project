@@ -1,0 +1,48 @@
+/* section 2 worldwide */
+
+.worldwide img {
+  height: 250px;
+}
+
+/* section 3 bretagne */
+
+.brittany img {
+  height: 305px;
+}
+
+/*  section-default (2 et 3) */
+
+.section-default {
+  box-shadow: 0 0 5px #bbb;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.section-default div {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-default p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.section-default button {
+  background-color: #f70;
+  color: white;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 3px;
+  align-self: flex-end;
+}
+
+.section-default img {
+  object-fit: cover;
+  object-position: top;
+  flex: 2;
+}

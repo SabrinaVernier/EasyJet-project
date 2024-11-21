@@ -1,0 +1,20 @@
+/*    max-width: 1115 px    */
+
+/*    header    */
+header nav div:first-child a {
+  display: none;
+}
+.icon-burger,
+.icon-user {
+  color: white;
+  font-size: 24px;
+}
+
+/*    section 1: first    */
+
+.div-under-menu div:last-child {
+  display: none;
+}
+.div-under-menu {
+  gap: 100px;
+}

@@ -1,0 +1,54 @@
+/*  section 2bis carroussel1 */
+
+.caroussel1 {
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+  /* border: green solid 2px; */
+}
+
+.divcaroussel1 {
+  box-shadow: 0 0 5px #bbb;
+  width: 31%;
+  /* height: 350px; */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+}
+
+.divcaroussel1 > div {
+  /* border: red solid 1px; */
+  /* height: 70%; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.divcaroussel1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.caroussel1 p {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.caroussel1 button {
+  width: fit-content;
+  font-size: 13px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.caroussel1::-webkit-scrollbar {
+  display: none;
+}

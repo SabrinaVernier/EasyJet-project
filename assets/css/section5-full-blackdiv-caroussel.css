@@ -1,0 +1,47 @@
+/* section 5 (blackdiv-caroussel2) */
+
+.full-blackdiv-caroussel {
+  font-size: 20px;
+  /* border: green solid 2px; */
+}
+
+.blackdiv {
+  background-color: #333;
+  height: 145px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  flex-shrink: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blackdiv:hover {
+  background-color: #f60;
+  cursor: pointer;
+}
+
+.blackdiv p {
+  font-size: 14px;
+  color: white;
+}
+
+.caroussel2 {
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+}
+
+.caroussel2::-webkit-scrollbar {
+  display: none;
+}
+
+/* Icons black-div */
+
+.icon {
+  color: white;
+  font-size: 50px;
+  align-self: center;
+}

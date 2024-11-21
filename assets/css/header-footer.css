@@ -1,0 +1,87 @@
+/* header */
+
+header {
+  height: 60px;
+  font-size: 16px;
+  background-image: url("../imgs/headbar.gif");
+  background-size: cover;
+  padding: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* border: 2px solid blue; */
+}
+
+header > nav button {
+  color: #ff6600;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  font-size: 16px;
+  font-family: "easyJet Rounded Book", serif;
+  font-weight: bold;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*  footer */
+
+footer {
+  background-color: #f1f5f6;
+}
+
+footer h4 {
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+footer > div {
+  color: #666666;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* ----------------------------------- */
+/*              RESPONSIVE             */
+
+/*  invisible element par defaut */
+/*            header             */
+
+@media (min-width: 670px) {
+  .icon-user {
+    display: none;
+  }
+}
+
+@media (min-width: 1115px) {
+  .icon-burger {
+    display: none;
+  }
+}

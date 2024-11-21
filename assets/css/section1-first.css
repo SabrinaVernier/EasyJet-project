@@ -1,0 +1,98 @@
+/* section 1 first (img-plage + booking-menu) */
+
+.div-first-img img {
+  object-fit: cover;
+  width: 100vw;
+  height: 650px;
+}
+
+.div-first-img {
+  position: relative;
+  /* border: blue 2px solid; */
+  overflow: hidden;
+}
+
+.div-above-first-img {
+  /* border: solid 3px red; */
+  height: 430px;
+  width: 100vw;
+  position: absolute;
+  top: 20px;
+}
+
+.div-booking-menu {
+  /* border: 2px solid green; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  text near menu */
+
+menu,
+.text-near-menu {
+  /* border: white dashed 2px; */
+  height: 430px;
+  width: 300px;
+}
+
+.text-near-menu {
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-near-menu p:first-child {
+  font-size: 50px;
+  font-family: "easyJet Headline", sans-serif;
+}
+
+.text-near-menu p:nth-child(2) {
+  font-size: 20px;
+}
+
+.text-near-menu span {
+  font-size: 40px;
+}
+
+.text-near-menu button {
+  background-color: #f70;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  align-self: flex-start;
+}
+
+/*  text under menu */
+
+.div2-above-first-img {
+  /* border: 1px solid red; */
+  height: 130px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.div-under-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.div-under-menu button {
+  background-color: #f70;
+  color: white;
+  border: none;
+  font-size: 13px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.div2-above-first-img > p {
+  font-size: 10px;
+  padding: 15px 0px;
+}

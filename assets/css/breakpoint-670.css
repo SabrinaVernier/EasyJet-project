@@ -1,0 +1,97 @@
+/*    max-width: 670px */
+
+/*    header    */
+.desappear-phone {
+  display: none;
+}
+
+.connexion {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  position: absolute;
+  right: 10px;
+  margin-top: 5px;
+}
+
+.connexion a {
+  width: 90px;
+}
+header nav div:last-child {
+  position: relative;
+}
+
+/*   section 1: first   */
+
+.first {
+  background-color: #f2f2f2;
+}
+
+.first img {
+  visibility: hidden;
+}
+
+.hidden-670 {
+  display: none;
+}
+.div-booking-menu {
+  justify-content: center;
+}
+
+/*  section 1: first (div transparente) */
+
+.div2-above-first-img {
+  width: 100vw;
+  padding: 10px 30px;
+}
+.div-under-menu {
+  width: 100%;
+  gap: 50px;
+}
+
+.div-under-menu div:nth-child(3) {
+  display: none;
+}
+
+/*    section-default (2 et 3)   */
+
+.section-default {
+  width: 300px;
+}
+
+/*    section 2bis: full-services    */
+
+.divcaroussel1 {
+  width: 50vw;
+}
+.caroussel1 {
+  margin-left: 10px;
+}
+
+/*    section 4: three-pictures   */
+
+.three-pictures {
+  flex-wrap: nowrap;
+  overflow: scroll;
+  gap: 20px;
+}
+
+.three-pictures::-webkit-scrollbar {
+  display: none;
+}
+
+.three-pictures > div:last-child {
+  flex-shrink: 0;
+  width: auto;
+}
+
+/*     footer    */
+
+footer ul {
+  display: none;
+}
+
+.footer-div {
+  flex-direction: column;
+  align-items: center;
+}
