@@ -11,3 +11,4 @@
 @import "./breakpoint-1115.css" (max-width: 1115px);
 @import "./breakpoint-960.css" (max-width: 960px);
 @import "./breakpoint-670.css" (max-width: 670px);
+@import "./breakpoint-500.css" (max-width: 500px);

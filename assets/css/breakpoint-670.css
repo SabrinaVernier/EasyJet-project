@@ -21,6 +21,8 @@ header nav div:last-child {
   position: relative;
 }
 
+/* main */
+
 /*   section 1: first   */
 
 .first {
@@ -71,9 +73,15 @@ header nav div:last-child {
 /*    section 4: three-pictures   */
 
 .three-pictures {
+  width: calc(100% - 40px);
   flex-wrap: nowrap;
   overflow: scroll;
   gap: 20px;
+}
+
+.three-pictures img {
+  height: 198px;
+  width: 257px;
 }
 
 .three-pictures::-webkit-scrollbar {

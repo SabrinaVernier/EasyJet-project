@@ -16,8 +16,8 @@
 }
 .div-under-menu,
 .div2-above-first-img > p {
-  width: calc(100vw - 10px);
-  padding: 5px;
+  width: calc(100vw - 40px);
+  padding: 5px 0px;
 }
 
 /*    section-default (2 et 3) */

@@ -1,0 +1,82 @@
+/*   max-width: 500px    */
+
+.container {
+  max-width: 500px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+button {
+  font-size: 12px;
+}
+
+/*    section 1: first */
+
+/* menu */
+
+.div-booking-menu .booking-menu {
+  height: fit-content;
+  font-size: 11px;
+}
+
+.div-booking-menu .person span,
+.div-booking-menu .date i,
+.div-booking-menu .person button {
+  font-size: 16px;
+}
+
+/* ----- */
+.div-under-menu {
+  gap: 20px;
+  font-size: 12px;
+}
+
+.div-under-menu,
+.div2-above-first-img > p {
+  width: calc(100vw - 40px);
+}
+
+.div2-above-first-img {
+  padding: 10px 20px;
+}
+/*    section-default (2 et 3) */
+
+.section-default {
+  width: 250px;
+}
+
+.section-default > div {
+  padding: 15px;
+}
+
+.section-default button {
+  padding: 6px 25px;
+}
+
+/*    section 2bis: full-services */
+
+.caroussel1 p {
+  margin: 10px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.caroussel1 button {
+  font-size: 11px;
+  padding: 5px 12px;
+}
+
+/*    section 4: three-pictures */
+
+.three-pictures {
+  font-size: 24px;
+}
+/*  section 5: full-balckdiv-caroussel */
+
+/*    footer    */
