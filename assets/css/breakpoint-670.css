@@ -21,12 +21,11 @@ header nav div:last-child {
   position: relative;
 }
 
-/* main */
-
 /*   section 1: first   */
 
 .first {
   background-color: #f2f2f2;
+  padding-top: 20px;
 }
 
 .first img {
